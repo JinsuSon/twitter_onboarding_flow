@@ -18,7 +18,7 @@ class _InitialScreenState extends State<InitialScreen> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => CreateAccountScreen(),
+        builder: (context) => const CreateAccountScreen(),
       ),
     );
   }
@@ -27,7 +27,7 @@ class _InitialScreenState extends State<InitialScreen> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => CreateAccountScreen(),
+        builder: (context) => const CreateAccountScreen(),
       ),
     );
   }
@@ -38,7 +38,7 @@ class _InitialScreenState extends State<InitialScreen> {
       appBar: AppBar(
         title: FaIcon(
           FontAwesomeIcons.twitter,
-          size: Sizes.size14,
+          size: Sizes.size20,
           color: Theme.of(context).primaryColor,
         ),
       ),
